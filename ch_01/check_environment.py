@@ -82,7 +82,6 @@ def run_checks(raise_exc=False):
     if failures and raise_exc:
         raise Exception(
             'Environment failed inspection due to incorrect versions '
-            f'of {len(failures)} item(s): {", ".join(failures)}.'
         )
 
 if __name__ == '__main__':
