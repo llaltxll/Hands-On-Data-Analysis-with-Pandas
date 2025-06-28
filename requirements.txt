@@ -14,3 +14,5 @@ statsmodels==0.9.0
 git+https://github.com/stefmolin/login-attempt-simulator.git@pandas_book
 git+https://github.com/stefmolin/ml-utils.git@pandas_book
 git+https://github.com/stefmolin/stock-analysis.git@pandas_book
+# optional
+spyder-kernels==2.5.*
